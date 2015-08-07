@@ -48,6 +48,10 @@
 	vertical-align: middle;
 }
 
+#icon:hover	{
+	opacity: 1;
+}
+
 #signin	{
 	padding: 6.5px 12px 6.5px 12px;
 	border: 1px solid #4285F4;
@@ -56,4 +60,135 @@
 	color: #FFF;
 	opacity: 1;
 	border-radius: 2px;
+}
+
+#signin:hover	{
+	text-decoration: none; 
+	border-radius: 0px;
+}
+
+.search input	{
+	font-family: arial,sans-serif;
+	font-size: 16px;
+	width: 546px;
+	height: 24px;
+	border: 1px solid;
+	border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.search img	{
+	height: 95px;
+	width: 269px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -145%);
+}
+
+.search input:hover	{
+	border: 1px solid #A0A0A0;
+}
+
+.search input:focus	{
+	border: 1px solid #4D90FE;
+}
+
+.search ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 35%);
+}
+
+.search li 	{
+	display: inline-block;
+	width: 84px;
+	height: 27px;
+	line-height: 27px;
+	background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+	font-family: arial,sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border-radius: 2px;
+	color: ##444444;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 11px 6px 11px 6px;
+}
+
+.search li:hover	{
+	background-image: -moz-linear-gradient(50% 0%, #F7F7F7, #F1F1F1);
+	color: black;
+	border: 1px solid #C6C6C6;
+	font-weight: bold;
+}
+
+.search li:active	{
+	border: 1px solid #4D90FE;
+}
+.search li a {
+	text-decoration: none; 
+}
+
+.search li a:visited	{
+	color: #444;;
+}
+
+#feelinglucky	{
+	width: 99px;
+	height: 27px;
+}
+
+.footer	{
+	position: absolute;
+	bottom:0;
+	left:0;
+	height: 40px;
+	width: 100%;
+	background-color: #F2F2F2;
+}
+
+.footer ul 	{
+	list-style-type: none;
+	font-family: arial,sans-serif;
+	font-size: small;
+	display: inline-block;
+	color: #666;
+}
+
+.footer li 	{
+	margin: 0px;
+	display: inline-block;
+	padding-left: 27px;
+
+}
+
+.footer li a {
+	text-decoration: none;
+	color: #666;
+}
+
+.footer li a:hover	{
+	text-decoration: underline;
+}
+
+#leftbottom	{
+	float: left;
+}
+
+#rightbottom	{
+	float: right;
+	margin-right: 30px;
 }
